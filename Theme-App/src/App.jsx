@@ -11,8 +11,8 @@ function App() {
       className={`min-h-screen flex items-center justify-center transition-all duration-500
         ${
           isLight
-            ? "bg-gradient-to-br from-slate-100 to-slate-300"
-            : "bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"
+            ? "bg-linear-to-br from-slate-100 to-slate-300"
+            : "bg-linear-to-br from-slate-900 via-slate-800 to-slate-900"
         }
       `}
     >
